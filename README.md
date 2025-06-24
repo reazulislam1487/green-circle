@@ -1,42 +1,61 @@
-# GreenCircle
+# GreenCircle - Garden Tips Hub
 
-**Live Site:** https://projects-assignment-10.web.app/
+**Live Site:** [https://projects-assignment-10.web.app/](https://projects-assignment-10.web.app/)
 
-## 📋 Project Description
+---
 
-**Garden Tips Hub** is a web application where gardening enthusiasts can share, explore, and manage helpful gardening tips. With a sleek user interface and dynamic user experience, this project encourages community learning and contribution among hobbyist and expert gardeners alike.
+## 📋 Project Overview
 
-## 🚀 Features
+Garden Tips Hub is a web application designed for gardening enthusiasts to share, explore, and manage helpful gardening tips. It offers a sleek, user-friendly interface and encourages community learning by allowing hobbyists and experts alike to contribute tips with images, categories, and organized information.
 
-- ✅ **User Authentication:** Secure login and registration system.
-- ✅ **CRUD Operations:** Users can create, view, edit, and delete gardening tips.
-- ✅ **Responsive Design:** Mobile-first UI that works great on all screen sizes.
-- ✅ **Dark Mode Toggle:** Users can switch between light and dark themes using DaisyUI.
-- ✅ **Categorized Tips:** Tips are organized by plant type, difficulty, and category.
-- ✅ **Image Integration:** Tips can include images for better visual explanation.
+![Garden Tips Hub Screenshot](https://i.postimg.cc/FsHfNJK1/Screenshot-2025-06-25-054213.png)  
 
-## 💪 Technologies Used
+---
 
-- **Frontend:** React.js, Tailwind CSS, DaisyUI
-- **Routing:** React Router
-- **Authentication:** Firebase Authentication
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Deployment:** Vercel / Netlify (specify if needed)
+## 💪 Main Technologies Used
 
-## 📆 Installation & Setup
+- React.js  
+- Tailwind CSS & DaisyUI  
+- React Router  
+- Firebase Authentication  
+- Node.js & Express.js  
+- MongoDB  
 
-1. **Install dependencies**
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Key Features
 
-2. **Set up environment variables**
-   Create a `.env` file and add necessary variables like Firebase config, API URLs, etc.
+- Secure user authentication (login and registration)  
+- Full CRUD functionality for creating, viewing, editing, and deleting gardening tips  
+- Responsive design optimized for mobile, tablet, and desktop  
+- Dark mode toggle using DaisyUI themes  
+- Tips categorized by plant type, difficulty level, and categories  
+- Support for images within tips to enhance explanations  
 
-3. **Run the development server**
+---
 
-   ```bash
-   npm run dev
-   ```
+## 📦 Project Dependencies
+
+```json
+{
+  "@tailwindcss/vite": "^4.1.7",
+  "axios": "^1.9.0",
+  "daisyui": "^5.0.37",
+  "dotenv": "^16.5.0",
+  "firebase": "^11.8.1",
+  "icons": "^1.0.0",
+  "lottie-react": "^2.4.1",
+  "lucide-react": "^0.513.0",
+  "motion": "^12.14.0",
+  "react": "^19.1.0",
+  "react-countdown-circle-timer": "^3.2.1",
+  "react-datepicker": "^8.4.0",
+  "react-dom": "^19.1.0",
+  "react-icons": "^5.5.0",
+  "react-router": "^7.6.1",
+  "react-slick": "^0.30.3",
+  "slick-carousel": "^1.8.1",
+  "sweetalert2": "^11.22.0",
+  "swiper": "^11.2.8",
+  "tailwindcss": "^4.1.7"
+}
